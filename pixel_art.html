@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Pixel Art Project</title>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Trochut' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pixel Art Project</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="10">
+        Grid Width:
+        <input type="number" id="inputWeight" name="width" min="1" value="10">
+        <input type="submit">
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker" value="#090979">
+
+    <h2>Canvas:</h2>
+    <p>Note: if you don't like what you have drawn, simply double click to delete it!</p>
+    <table id="pixelCanvas"></table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="designs.js"></script>
+
+</body>
+</html>
